@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HeroSection from './components/Front';
 import AboutMe from './components/AboutMe';
@@ -7,7 +6,7 @@ import './index.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/Portfolio'>
       <div className="app">
         <Routes>
           <Route path="/" element={ <> <HeroSection /> <AboutMe /> </>} />

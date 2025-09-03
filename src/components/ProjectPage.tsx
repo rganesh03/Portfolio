@@ -5,14 +5,14 @@ const projects = [
     {
     title: "Sudoku Solver",
     description: "Solves puzzles using backtracking.",
-    image: "/SudokuSolver.png",
+    image: `${import.meta.env.BASE_URL}/SudokuSolver.png`,
     github: "https://github.com/rganesh03/sudokuSolver",
     demo: "https://rganesh03.github.io/sudokuSolver"
   },
-  {
+    {
     title: "Sudoku Solver",
     description: "Solves puzzles using backtracking.",
-    image: "/SudokuSolver.png",
+    image: `${import.meta.env.BASE_URL}/SudokuSolver.png`,
     github: "https://github.com/rganesh03/sudokuSolver",
     demo: "https://rganesh03.github.io/sudokuSolver"
   },
