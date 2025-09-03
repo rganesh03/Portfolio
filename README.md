@@ -1,4 +1,4 @@
-# Rishi Ganesh — Developer Portfolio
+# Rishi Ganesh Developer Portfolio
 
 This is the source code for my personal portfolio, built with React and TypeScript and hosted via GitHub Pages. It showcases my projects, resume, and background as a Computer Science major at VCU.
 
