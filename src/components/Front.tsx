@@ -11,7 +11,7 @@ const HeroSection: React.FC = () => {
       </p>
       <div className="buttons">
         <Link to="/projects" className="btn">View Projects</Link>
-        <a href={`${import.meta.env.BASE_URL}CSResume.pdf`} className="btn" download = "Rishi_Ganesh_Resume.pdf">Download Resume</a>
+        <a href={`${import.meta.env.BASE_URL}/CSResume.pdf`} className="btn" download = "Rishi_Ganesh_Resume.pdf">Download Resume</a>
       </div>
     </section>
   );
